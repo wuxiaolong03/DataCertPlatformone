@@ -1,15 +1,14 @@
 package test
 
 import (
+	_ "DataCertPlatformone/routers"
 	"net/http"
 	"net/http/httptest"
-	"testing"
-	"runtime"
 	"path/filepath"
-	_ "DataCertPlatformone/routers"
+	"runtime"
+	"testing"
 
 	"github.com/astaxie/beego"
-	. "github.com/smartystreets/goconvey/convey"gig
 )
 
 func init() {
