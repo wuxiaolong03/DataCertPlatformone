@@ -1,12 +1,19 @@
 package main
 
-import  (
+import (
 	"DataCertPlatformone/db_mysql"
 	_ "DataCertPlatformone/routers"
 	"github.com/astaxie/beego"
 )
 
 func main() {
+
+
+	//block0:=blockchain.CreateGenesisBlock()
+	//block1:=blockchain.NewBlock(block0.Height+1,block0.Hash,[]byte("a"))
+	//return
+
+
 	//连接数据库
 	db_mysql.Connect()
 
