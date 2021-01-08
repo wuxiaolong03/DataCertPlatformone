@@ -1,7 +1,7 @@
 package tools
 
 import (
-	"DataCertPlatformone/blockchain"
+	"DataCertPlatformone/blockchain1"
 	"crypto/md5"
 	"crypto/sha256"
 	"encoding/hex"
@@ -52,10 +52,12 @@ func SHA256HashReader(reader io.Reader)(string,error){
 /**
  *对区块数据进行SHA256哈希计算
  */
-func SHA256HashBlock(block blockchain.Block ) []byte {
+func SHA256HashBlock(block blockchain1.Block ) []byte {
 	//1、将block结构体数据转换为[]byte类型
 
+
 	//2、将转换后的[]byte字节切片输入Write方法
+
 	sha256Hash := sha256.New()
 	sha256Hash.Write()
 	hash := sha256Hash.Sum(nil)

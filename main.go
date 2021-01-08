@@ -8,11 +8,10 @@ import (
 
 func main() {
 
-
-	//block0:=blockchain.CreateGenesisBlock()
-	//block1:=blockchain.NewBlock(block0.Height+1,block0.Hash,[]byte("a"))
+	//block0 := blockchain1.CreateGenesisBlock()
+	//block1 := blockchain1.NewBlock(block0.Height+1,block0.Hash,[]byte("a"))
+	//
 	//return
-
 
 	//连接数据库
 	db_mysql.Connect()
