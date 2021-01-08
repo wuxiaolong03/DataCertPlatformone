@@ -27,7 +27,7 @@ func  NewBlock(height int64,prevHash []byte,data []byte) Block{
 		Data:      data,
 		Version:   "0x01",
 	}
-	block.Hash = SHA256
+	//block.Hash = SHA256
 	return block
 }
 
